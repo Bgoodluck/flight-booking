@@ -15,7 +15,7 @@ import { toast } from 'react-toastify';
 
 const ReportsManagement = () => {
   const [selectedReport, setSelectedReport] = useState('bookings');
-  const [dateRange, setDateRange] = useState({ start: '2024-01-01', end: '2024-01-31' });
+  const [dateRange, setDateRange] = useState({ start: '2025-05-01', end: '2025-05-31' });
   const [loading, setLoading] = useState(false);
 
   const reportTypes = [
@@ -124,8 +124,8 @@ const ReportsManagement = () => {
               <div className="flex items-center">
                 <FileText className="text-blue-500 mr-3" size={20} />
                 <div>
-                  <p className="font-medium">Bookings Report - January 2024</p>
-                  <p className="text-sm text-gray-500">Generated on Jan 31, 2024</p>
+                  <p className="font-medium">Bookings Report - May 2025</p>
+                  <p className="text-sm text-gray-500">Generated on May 31, 2025</p>
                 </div>
               </div>
               <div className="flex space-x-2">

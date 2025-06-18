@@ -10,9 +10,9 @@ import { toast } from 'react-toastify';
 
 const RefundsManagement = () => {
   const [refunds] = useState([
-    { id: 1, user: 'John Doe', amount: 450, status: 'pending', bookingRef: 'BK001', createdAt: '2024-01-15' },
-    { id: 2, user: 'Jane Smith', amount: 320, status: 'approved', bookingRef: 'BK002', createdAt: '2024-01-14' },
-    { id: 3, user: 'Bob Johnson', amount: 780, status: 'rejected', bookingRef: 'BK003', createdAt: '2024-01-13' }
+    { id: 1, user: 'John Doe', amount: 450, status: 'pending', bookingRef: 'BK001', createdAt: '2025-05-15' },
+    { id: 2, user: 'Jane Smith', amount: 320, status: 'approved', bookingRef: 'BK002', createdAt: '2025-05-14' },
+    { id: 3, user: 'Bob Johnson', amount: 780, status: 'rejected', bookingRef: 'BK003', createdAt: '2025-05-13' }
   ]);
 
   const handleRefundAction = (refundId, action) => {

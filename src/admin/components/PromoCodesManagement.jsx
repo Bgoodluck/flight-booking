@@ -14,9 +14,9 @@ import { toast } from 'react-toastify';
 
 const PromoCodesManagement = () => {
   const [promoCodes, setPromoCodes] = useState([
-    { id: 1, code: 'WELCOME10', discountType: 'percentage', discountValue: 10, usageLimit: 100, used: 45, status: 'active', expiryDate: '2024-12-31' },
-    { id: 2, code: 'SAVE50', discountType: 'fixed', discountValue: 50, usageLimit: 50, used: 12, status: 'active', expiryDate: '2024-06-30' },
-    { id: 3, code: 'EXPIRED20', discountType: 'percentage', discountValue: 20, usageLimit: 200, used: 200, status: 'inactive', expiryDate: '2024-01-15' }
+    { id: 1, code: 'WELCOME10', discountType: 'percentage', discountValue: 10, usageLimit: 100, used: 45, status: 'active', expiryDate: '2025-12-31' },
+    { id: 2, code: 'SAVE50', discountType: 'fixed', discountValue: 50, usageLimit: 50, used: 12, status: 'active', expiryDate: '2025-06-30' },
+    { id: 3, code: 'EXPIRED20', discountType: 'percentage', discountValue: 20, usageLimit: 200, used: 200, status: 'inactive', expiryDate: '2025-01-15' }
   ]);
   const [showCreateModal, setShowCreateModal] = useState(false);
 
