@@ -30,6 +30,7 @@ import {
   Zap
 } from 'lucide-react';
 import Header from '../Navbar/Header';
+import { backendUrl } from '../../config/config';
 
 const UserHistory = () => {
   // Mock auth context - replace with your actual auth implementation
@@ -55,7 +56,7 @@ const UserHistory = () => {
   const [expandedItems, setExpandedItems] = useState(new Set());
 
   // Mock API endpoints - replace with your actual endpoints
-  const API_BASE = 'http://localhost:5000/api';
+  const API_BASE = `${backendUrl}/api`;
   
   const summaryApi = {
     getSearchHistory: {
