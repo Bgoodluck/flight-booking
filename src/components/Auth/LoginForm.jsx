@@ -205,7 +205,7 @@ const LoginForm = ({ userType, onToggleForm, onSwitchType, onForgotPassword, cus
       
       // Handle redirect after successful login
       if (userType === 'admin') {
-        window.location.href = '/dashboard';
+        window.location.href = '/admin';
       }
       // Other redirects can be handled by the parent component or routing logic
       
