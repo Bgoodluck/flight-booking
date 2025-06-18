@@ -253,7 +253,7 @@ import Bookings from './components/Booking/Bookings';
 import PaymentApp from './pages/Payment/PaymentApp';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import PaymentCallback from './pages/Payment/PaymentCallBack';
+import PaymentCallback from './pages/Payment/PaymentCallback';
 import IntegratedPayment from './pages/Payment/IntegratedPayment';
 import UserHistory from './components/Profile/UserHistory';
 import FlightResults from './components/Extras/FlightResults';
@@ -507,7 +507,7 @@ const AppRoutes = () => {
 
 // Main App Component
 function App() {
-  const backendUrl ='http://localhost:5000';
+  
   return (
     <AuthProvider>
       <Router>
