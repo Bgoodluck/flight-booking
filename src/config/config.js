@@ -1,1 +1,1 @@
-export const backendUrl = 'http://localhost:5000';
+export const backendUrl = 'https://flight-booking-c6rj.onrender.com';

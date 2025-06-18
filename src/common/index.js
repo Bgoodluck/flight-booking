@@ -1,4 +1,4 @@
-const backendUrl = 'http://localhost:5000';
+const backendUrl = 'https://flight-booking-c6rj.onrender.com';
 
 const summaryApi = {
      // ============== USER ROUTES ==============
